@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inconsolata{
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+@layer components {
+    .removeLinkHover {
+      @apply hover:after:w-[0] text-gray-800; /* Dark text for light background */
+    }
+}
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* background-image: url("/img/bg.png"); */
+  background-repeat: no-repeat;
+}
+
+/* scrolling........... */
+::-webkit-scrollbar {
+  width: 7px;
+  height: auto;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+  border: 1px solid #555;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+a {
+    padding: 5px 5px;
+    position: relative;
+    
+  }
+  a::after {
+    content: "";
+    position: absolute;
+    border-radius: 55px;
+    background-color: #73a6e1;
+    height: 3px;
+    width: 0;
+    left: 0px;
+    bottom: 0px;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: #61C408;
+  }
+  
+  a:hover::after {
+    width: 100%;
+  }
