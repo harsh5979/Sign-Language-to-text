@@ -94,7 +94,7 @@ const SignUpForm = () => {
           type="submit"
           className="w-full px-4 py-3 my-3 text-white bg-blue-500 rounded-md hover:bg-blue-600 "
         >
-          Login
+          Sign up
         </button>
       </form>
       <div className="">

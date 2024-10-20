@@ -4,6 +4,7 @@ import { useAuth } from "../context/contextapi";
 import Footer from "../Components/Footer";
 
 const Home = () => {
+  
   const { isLogin, user, userdata } = useAuth();
   useEffect(() => {
     userdata();
@@ -13,7 +14,7 @@ const Home = () => {
     <>
       <div className="p-6 flex justify-center flex-col md:mx-10 my-16">
         <h1 className="text-4xl font-bold mb-6">
-          Welcome to {user.userName}Sign Language to Text Translator
+          Welcome to {user.username} Sign Language to Text Translator
         </h1>
         <p className="text-xl mb-6">
           Our app helps you convert sign language gestures into readable text in
@@ -52,7 +53,8 @@ const Home = () => {
           </div>
         )}
       </div>
-      {/* <Footer /> */}
+    
+      <Footer />
     </>
   );
 };

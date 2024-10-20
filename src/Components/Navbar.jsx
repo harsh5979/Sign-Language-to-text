@@ -37,15 +37,15 @@ const Navbar = () => {
     <nav
     onClick={toggleMenu}
 
-      className={`flex items-center justify-between bg-white/40 p-4 shadow-lg   z-50 ${
-        isSticky ? "sticky top-0 z-10 bg-gray-300" : ""
+      className={`flex items-center justify-between bg-white p-4 shadow-lg   z-50 ${
+        isSticky ? "sticky top-0  z-20 bg-gray-300" : ""
       }`}
     >
       {/* Logo */}
 
       <div className="flex items-center space-x-4">
         <img src="/img/GECM_logo.png" alt="Logo" className="w-16 h-16" />
-        <h1 className="md:text-2xl text-xl font-bold text-black">
+        <h1 className="md:text-xl text-xl font-bold text-black">
           <NavLink to={"/"} className={"removeLinkHover"}>
           Sign Language Recognition to Text
           </NavLink>
