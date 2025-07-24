@@ -67,8 +67,7 @@ function Main() {
 
         <Route
           path="/translator"
-          // element={<Protected element={<Translator />}  />}
-          element={<Translator />}  
+          element={<Protected element={<Translator />}  />}
         />
         {/* <Route path="/" element={< />} /> */}
         <Route path="*" element={<Error />} />
