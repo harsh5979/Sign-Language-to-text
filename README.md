@@ -1,6 +1,6 @@
 # 👐 Gesture Detection: Sign Language to Text 📖✨
 
-![Demo Preview](public/sample-image.png)
+![Demo Preview](public/1.png)
 
 ## 🤖 What is This Project?
 
@@ -21,28 +21,24 @@ Empowering accessibility and breaking communication barriers. 🌍
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/gesture-detection.git
-   ```
 
-2. **Install dependencies**  
+1. **Install dependencies**  
    ```bash
    npm install
    ```
 
-3. **Start the app**  
+2. **Start the app**  
    ```bash
-   npm start
+   npm run dev
    ```
 
-Open [localhost:3000](http://localhost:3000) in your browser to begin! 🎉
+Open [localhost:5173](http://localhost:5173) in your browser to begin! 🎉
 
 ---
 
 ## 🖼️ Demo
 
-![Gesture to Text Demo](public/sample-image.png)
+![Gesture to Text Demo](public/2.png)
 
 ---
 
@@ -70,10 +66,10 @@ Open an issue or pull request! 🛠️
 ## 📬 Contact
 
 Questions? Suggestions?  
-Reach out on [GitHub Issues](https://github.com/YOUR-USERNAME/gesture-detection/issues) or email hello@example.com.
+Reach out on [GitHub Issues](https://github.com/harsh5979/gesture-detection/issues) or email hello@example.com.
 
 ---
 
 ## 📄 License
 
-MIT © YourName
+MIT © Harsh

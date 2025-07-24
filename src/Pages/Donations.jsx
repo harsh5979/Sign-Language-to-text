@@ -74,7 +74,7 @@ const Donations = () => {
 
         {/* Submit Button */}
         <div className="text-center">
-          <button className="bg-green-500 select-none text-white px-8 py-3 rounded-full hover:bg-green-600">
+          <button className="bg-green-500 select-none text-white px-8 py-3 rounded-full hover:bg-green-600" onClick={()=>alert("Server Error")}>  
             Donate Now
           </button>
         </div>

@@ -98,11 +98,11 @@ export const MycontextProvide = ({ children }) => {
         toast.success(res.message);
         return res.status(200).json({massage :"done"})
       } else {
-        // toast.error(res.error ? res.error : res);
+        toast.error(res.error ? res.error : res);
       }
     } catch (error) {
       console.error("Login error:", error);
-      // toast.error("Login failed. Please try again.");
+      toast.error("Login failed. Please try again.");
     }
   };
 
